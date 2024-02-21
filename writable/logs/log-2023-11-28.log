@@ -1,0 +1,420 @@
+CRITICAL - 2023-11-28 00:04:33 --> Call to a member function getCountKategori() on null
+in APPPATH\Controllers\Home.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 00:05:25 --> Call to a member function getCountKategori() on null
+in APPPATH\Controllers\Home.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 00:05:48 --> Call to a member function getCountKategori() on null
+in APPPATH\Controllers\Home.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 00:11:47 --> syntax error, unexpected token ";", expecting variable or "{" or "$"
+in APPPATH\Views\home.php on line 345.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(90): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 00:44:49 --> Array to string conversion
+in APPPATH\Views\home.php on line 304.
+ 1 APPPATH\Views\home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\home.php', 304)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:00:59 --> Call to undefined method App\Models\TransaksiModel::getPenghasilan
+in SYSTEMPATH\Model.php on line 840.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Model->__call('getPenghasilan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:13:24 --> CodeIgniter\Database\BaseBuilder::selectMax(): Argument #1 ($select) must be of type string, array given, called in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php on line 838
+in SYSTEMPATH\Database\BaseBuilder.php on line 440.
+ 1 SYSTEMPATH\Model.php(838): CodeIgniter\Database\BaseBuilder->selectMax([...])
+ 2 APPPATH\Models\TransaksiModel.php(81): CodeIgniter\Model->__call('selectMax', [...])
+ 3 APPPATH\Controllers\Home.php(93): App\Models\TransaksiModel->getPenghasilanMax()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:13:39 --> CodeIgniter\Database\BaseBuilder::selectMax(): Argument #1 ($select) must be of type string, array given, called in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php on line 838
+in SYSTEMPATH\Database\BaseBuilder.php on line 440.
+ 1 SYSTEMPATH\Model.php(838): CodeIgniter\Database\BaseBuilder->selectMax([...])
+ 2 APPPATH\Models\TransaksiModel.php(81): CodeIgniter\Model->__call('selectMax', [...])
+ 3 APPPATH\Controllers\Home.php(93): App\Models\TransaksiModel->getPenghasilanMax()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:15:14 --> CodeIgniter\Database\BaseBuilder::selectMax(): Argument #1 ($select) must be of type string, array given, called in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php on line 838
+in SYSTEMPATH\Database\BaseBuilder.php on line 440.
+ 1 SYSTEMPATH\Model.php(838): CodeIgniter\Database\BaseBuilder->selectMax([...])
+ 2 APPPATH\Models\TransaksiModel.php(81): CodeIgniter\Model->__call('selectMax', [...])
+ 3 APPPATH\Controllers\Home.php(93): App\Models\TransaksiModel->getPenghasilanMax()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:16:07 --> CodeIgniter\Database\BaseBuilder::selectMax(): Argument #2 ($alias) must be of type string, array given, called in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php on line 838
+in SYSTEMPATH\Database\BaseBuilder.php on line 440.
+ 1 SYSTEMPATH\Model.php(838): CodeIgniter\Database\BaseBuilder->selectMax('total_harga', [...])
+ 2 APPPATH\Models\TransaksiModel.php(81): CodeIgniter\Model->__call('selectMax', [...])
+ 3 APPPATH\Controllers\Home.php(93): App\Models\TransaksiModel->getPenghasilanMax()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:17:44 --> Undefined array key "total_harga"
+in APPPATH\Views\home.php on line 353.
+ 1 APPPATH\Views\home.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'APPPATH\\Views\\home.php', 353)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(97): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:34:07 --> Call to undefined method App\Models\TransaksiModel::getPenghasilan2017
+in SYSTEMPATH\Model.php on line 840.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Model->__call('getPenghasilan2017', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:43:54 --> Undefined variable $usersTotal
+in APPPATH\Views\home.php on line 62.
+ 1 APPPATH\Views\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersTotal', 'APPPATH\\Views\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:45:24 --> Trying to access array offset on value of type int
+in APPPATH\Views\home.php on line 95.
+ 1 APPPATH\Views\home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\home.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(110): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:45:34 --> Trying to access array offset on value of type int
+in APPPATH\Views\home.php on line 95.
+ 1 APPPATH\Views\home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\home.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(110): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:45:43 --> Trying to access array offset on value of type int
+in APPPATH\Views\home.php on line 110.
+ 1 APPPATH\Views\home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\home.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(110): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:46:07 --> Trying to access array offset on value of type int
+in APPPATH\Views\home.php on line 95.
+ 1 APPPATH\Views\home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\home.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(110): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 01:50:19 --> Undefined variable $kategori
+in APPPATH\Views\home.php on line 392.
+ 1 APPPATH\Views\home.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\home.php', 392)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-11-28 02:52:03 --> mysqli_sql_exception: Unknown column 'transaksi.created_at' in 'where clause' in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xamppV8\htdocs\ELStore\app\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+#6 C:\xamppV8\htdocs\ELStore\app\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+#7 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->home()
+#8 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppV8\htdocs\ELStore\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xamppV8\\htdo...')
+#12 {main}
+CRITICAL - 2023-11-28 02:52:03 --> Unknown column 'transaksi.created_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `booking`
+WHERE `pembuat` = :pembuat:
+AND YEAR(transaksi.created_at) = :YEAR(transaksi.created_at):', [...], false)
+ 2 SYSTEMPATH\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-11-28 02:52:42 --> mysqli_sql_exception: Unknown column 'transaksi.created_at' in 'where clause' in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xamppV8\htdocs\ELStore\app\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+#6 C:\xamppV8\htdocs\ELStore\app\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+#7 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->home()
+#8 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppV8\htdocs\ELStore\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xamppV8\\htdo...')
+#12 {main}
+CRITICAL - 2023-11-28 02:52:42 --> Unknown column 'transaksi.created_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `booking`
+WHERE `pembuat` = :pembuat:
+AND YEAR(transaksi.created_at) = :YEAR(transaksi.created_at):', [...], false)
+ 2 SYSTEMPATH\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-11-28 02:52:43 --> mysqli_sql_exception: Unknown column 'transaksi.created_at' in 'where clause' in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xamppV8\htdocs\ELStore\app\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+#6 C:\xamppV8\htdocs\ELStore\app\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+#7 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->home()
+#8 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppV8\htdocs\ELStore\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xamppV8\\htdo...')
+#12 {main}
+CRITICAL - 2023-11-28 02:52:43 --> Unknown column 'transaksi.created_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `booking`
+WHERE `pembuat` = :pembuat:
+AND YEAR(transaksi.created_at) = :YEAR(transaksi.created_at):', [...], false)
+ 2 SYSTEMPATH\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\BookingModel.php(38): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Home.php(63): App\Models\BookingModel->getCountBooking('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-11-28 02:53:57 --> mysqli_sql_exception: Unknown column 'transaksi.created_at' in 'where clause' in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xamppV8\htdocs\ELStore\app\Models\DetailTransaksiModel.php(39): CodeIgniter\Model->countAllResults()
+#6 C:\xamppV8\htdocs\ELStore\app\Controllers\Home.php(64): App\Models\DetailTransaksiModel->getCountProduk('1')
+#7 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->home()
+#8 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppV8\htdocs\ELStore\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xamppV8\\htdo...')
+#12 {main}
+CRITICAL - 2023-11-28 02:53:57 --> Unknown column 'transaksi.created_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_transaksi`
+JOIN `produk` ON `produk`.`id` = `detail_transaksi`.`id_produk`
+WHERE `id_user` = :id_user:
+AND `id_kategori` = :id_kategori:
+AND YEAR(transaksi.created_at) = :YEAR(transaksi.created_at):', [...], false)
+ 2 SYSTEMPATH\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\DetailTransaksiModel.php(39): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Home.php(64): App\Models\DetailTransaksiModel->getCountProduk('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-11-28 02:54:51 --> mysqli_sql_exception: Column 'id_user' in where clause is ambiguous in C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xamppV8\htdocs\ELStore\app\Models\DetailTransaksiModel.php(39): CodeIgniter\Model->countAllResults()
+#6 C:\xamppV8\htdocs\ELStore\app\Controllers\Home.php(64): App\Models\DetailTransaksiModel->getCountProduk('1')
+#7 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->home()
+#8 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppV8\htdocs\ELStore\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xamppV8\htdocs\ELStore\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xamppV8\\htdo...')
+#12 {main}
+CRITICAL - 2023-11-28 02:54:51 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1685): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_transaksi`
+JOIN `produk` ON `produk`.`id` = `detail_transaksi`.`id_produk`
+JOIN `transaksi` ON `transaksi`.`id` = `detail_transaksi`.`id_transaksi`
+WHERE `id_user` = :id_user:
+AND `id_kategori` = :id_kategori:
+AND YEAR(transaksi.created_at) = :YEAR(transaksi.created_at):', [...], false)
+ 2 SYSTEMPATH\Model.php(604): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\DetailTransaksiModel.php(39): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Home.php(64): App\Models\DetailTransaksiModel->getCountProduk('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:02:33 --> Unsupported operand types: string - int
+in APPPATH\Models\DetailTransaksiModel.php on line 48.
+ 1 APPPATH\Controllers\Home.php(69): App\Models\DetailTransaksiModel->getCountLastProduk('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:39:44 --> Undefined array key "stok"
+in APPPATH\Views\Proses\Cart\ListCart.php on line 74.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(111): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:40:08 --> Undefined array key "stok"
+in APPPATH\Views\Proses\Cart\ListCart.php on line 75.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(111): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:40:21 --> Undefined array key "stok"
+in APPPATH\Views\Proses\Cart\ListCart.php on line 75.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(111): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:42:51 --> Undefined array key "gambar"
+in APPPATH\Views\Proses\Cart\ListCart.php on line 48.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(111): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:48:49 --> Undefined variable $k
+in APPPATH\Views\Proses\Cart\ListCart.php on line 32.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(111): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-28 03:49:38 --> Undefined variable $k
+in APPPATH\Views\Proses\Cart\ListCart.php on line 32.
+ 1 APPPATH\Views\Proses\Cart\ListCart.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'APPPATH\\Views\\Proses\\Cart\\ListCart.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Proses\\Cart\\ListCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/Proses/Cart/ListCart', [], true)
+ 5 APPPATH\Controllers\Cart.php(118): view('/Proses/Cart/ListCart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-11-28 07:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
